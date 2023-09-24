@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+   
+    <div class="cont">
+
+        <a href="Home">Home</a>
+        <div class="head">
+            <h1>The Digital Image Denoising Techniques</h1>
+        </div>
+        <div class="short">
+            <h2>Remove Noise From Image</h2>
+        </div>
+        <div class="parg">Remove noise and grain from image online in <br>
+            seconds with Fotor's AI image denoiser.<br>
+
+            No photo editing skills needed. <br>Effortlessly denoise images and restore their<br>
+             original beauty in just a single click!
+            </div>
+            <div class="img">
+                <img src="{% static 'img/Image11.jpg' %}" alt="Image" width="1880" height="800">
+            </div>
+            <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="image" required>
+            <button type="submit">Upload</button>
+            </form>
+
+              <!-- Footer Section --> 
+              <footer class="bg-dark-1">
+                <section id="footer" class="py-5">
+                  
+               
+                <div class="footer-content">
+              
+                  <div class="social">
+                    <p>Follow our website by Social media</p>
+                  </div>
+                  
+                    <div class="container text-center">
+                      <a href="#" class="twitter"></a>
+                      <a href="#" class="linkedin"></a>
+                      <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true">
+                      <a href="#" class="skype"></a>
+                      <a href="#" class="flickr"></a>
+              
+                </div>
+               <div class="copyright">
+                <p>&copy; 2024 The Digital Image Denoising Techniques. All rights reserved.</p>
+               </div>
+                
+                </div>
+              </section>
+              </footer>
+              
+              
+              
+              
+                
+                </div>
+              </section>
+              </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.cont {
+    background-color: #0079FF;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+
+.short {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.parg {
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 25px;
+    color: white;
+}
+
+.img {
+    position: absolute;
+    top: 27%;
+    margin-left: 900px;
+    margin-bottom: 100px;
+
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 300px;
+    margin-top: 60px;
+
+}
+
+
+
+.upload-button input[type="file"] {
+    display: none;
+}
+
+
+
+/* Footer css */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer .twitter {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+}
+
+#footer .facebook {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+}
+
+#footer .skype {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -156px 0;
+}
+
+#footer .flickr {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -310px 0;
+}
+
+#footer a {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 1px solid;
+}
+
+#footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+#footer .twitter:hover {
+    background-position: 0 -56px;
+}
+
+#footer .facebook:hover {
+    background-position: -233px -56px;
+}
+
+#footer .skype:hover {
+    background-position: -156px -56px;
+}
+
+#footer .linkedin:hover {
+    background-position: -78px -56px;
+}
+
+#footer .flickr:hover {
+    background-position: -310px -56px;
+}
+
+.bg-dark-1 {
+    color: #fff;
+    padding: 50px;
+    margin-top: 150px;
+    background-color: #fff;
+    background-image: linear-gradient(225deg, #333 0%, #333 50%, #333 100%);
+
+}
+
+.copyright {
+    font-size: 20px;
+}
